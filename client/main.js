@@ -13,7 +13,7 @@ Router.configure({
 });
 
 Router.route('/', function () {
-    this.render('home');
+    this.render('index');
 });
 
 Router.route('/couchpotato', function () {
@@ -42,6 +42,10 @@ Router.route('/settings', {
 
 Router.route('/status', {
     name: 'status'
+});
+
+Router.route('/requests', {
+    name: 'home'
 });
 
 
