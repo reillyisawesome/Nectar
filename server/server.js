@@ -28,8 +28,8 @@ if (!(Settings.findOne({_id: "couchpotatosetting"}))) {
     Settings.insert({
         _id: "couchpotatosetting",
         service: "CouchPotato",
-        api: "http://192.168.0.1:5050/api/abcdef0123456789/",
-        enabled: false
+        api: "http://37.187.9.11:5050/api/4b96ff80a9634358a60cf084f5210d59/",
+        enabled: true
     });
 };
 

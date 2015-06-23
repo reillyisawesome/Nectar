@@ -40,6 +40,11 @@ Router.route('/settings', {
     name: 'settings'
 });
 
+Router.route('/status', {
+    name: 'status'
+});
+
+
 Template.body.helpers({
     url: function () {
     return Meteor.absoluteUrl();
