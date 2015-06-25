@@ -37,8 +37,8 @@ if (!(Settings.findOne({_id: "plexsetting"}))) {
     Settings.insert({
         _id: "plexsetting",
         service: "Plex",
-        api: "Plex Token",
-        enabled: false
+        api: "mxqeGaU8DeXMwoksZbsm",
+        enabled: true
     });
 };
 
