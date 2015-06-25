@@ -40,12 +40,16 @@ Router.route('/settings', {
     name: 'settings'
 });
 
-Router.route('/status', {
-    name: 'status'
-});
+//Router.route('/status', {
+   // name: 'status'
+//});
 
 Router.route('/requests', {
     name: 'home'
+});
+
+Router.route('/getstarted', {
+    name: 'started'
 });
 
 
