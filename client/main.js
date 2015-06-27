@@ -40,9 +40,9 @@ Router.route('/settings', {
     name: 'settings'
 });
 
-//Router.route('/status', {
-   // name: 'status'
-//});
+Router.route('/contact', {
+   name: 'contact'
+});
 
 Router.route('/requests', {
     name: 'home'
@@ -52,6 +52,15 @@ Router.route('/getstarted', {
     name: 'started'
 });
 
+Router.route('/faq', {
+    name: 'faq'
+});
+
+Router.route('/movies', {
+    name: 'movies'
+});
+
+
 
 Template.body.helpers({
     url: function () {
@@ -59,12 +68,6 @@ Template.body.helpers({
     }
 });
 
-Houston.menu({
-    'type': 'link',
-    'use': '/about',
-    'title': 'About',
-    'target': '_blank'
-});
 
 Houston.menu({
     'type': 'link',
