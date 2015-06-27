@@ -88,7 +88,7 @@ if (!(Settings.findOne({_id: "weeklylimit"}))) {
     Settings.insert({
         _id: "weeklylimit",
         service: "User request limit",
-        api: 5
+        api: 20
     })
 };
 
