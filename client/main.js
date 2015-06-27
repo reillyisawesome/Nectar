@@ -60,6 +60,9 @@ Router.route('/movies', {
     name: 'movies'
 });
 
+Router.route('/status', {
+    name: 'status'
+});
 
 
 Template.body.helpers({
