@@ -52,9 +52,9 @@ Router.route('/getstarted', {
     name: 'started'
 });
 
-//Router.route('/faq', {
-//    name: 'faq'
-//});
+Router.route('/faq', {
+    name: 'faq'
+});
 
 Router.route('/movies', {
     name: 'movies'
